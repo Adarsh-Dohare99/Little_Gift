@@ -16,8 +16,10 @@ elif st.session_state.step == 2:
     Hello Babbyyy... 😘 😘 😘,''')
     st.write('''    This is a Simple Little Gift for My Cuttieee Piee, I hope you like it. I hope this little gift can make you smile and feel loved. You are the most important person in my life and I want to make you happy. I love you so much and I will always be here for you. *Happy First Monthiversary! 😋 😋 😘 😘 ❤️ ❤️*''')
     st.write('''I have designed a Little Code as a gift, Hope You Like It... 😋 😘''')
+    st.write('        For Myy Baabbbyyy, Myy Shreya... 😘 😘 😘')
+    st.write('              Byy Your Hubbyy, Byy Adarsh... 😘 😘 😘')
 
-    st.button('Show me the next question', key='step_2_button', on_click=set_step, args=(3,))
+    st.button('Show me the first question', key='step_2_button', on_click=set_step, args=(3,))
 
 elif st.session_state.step == 3:
     st.write('''
